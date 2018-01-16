@@ -7,7 +7,7 @@ html{
     }
 }    
 
-@media screen and (max-width: 199px){
+@media screen and (max-width: 220px){
     html{
         font-size: 14px;
     }
@@ -52,12 +52,12 @@ body{
         
     }
 
-    @media screen and (max-width: 199px){
+    @media screen and (max-width: 220px){
         ul.card-group li {
             visibility: hidden;   
         }
     }
-    @media screen and (min-width: 199px){
+    @media screen and (min-width: 220px){
         .tiny {
             display: none;   
             font-size: 1rem;
