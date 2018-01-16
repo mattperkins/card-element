@@ -1,0 +1,163 @@
+html{
+    font-size: 16px;
+}
+@media screen and (max-width: 376px){
+    html{
+        font-size: 18px;
+    }
+}    
+
+@media screen and (max-width: 199px){
+    html{
+        font-size: 14px;
+    }
+}
+
+/* ================================== */
+
+body{
+        background: #f7f7f7;
+        font-family: sans-serif;
+    }    
+
+/* ================================== */
+
+    /* Card Group */
+
+    ul.card-group{
+        list-style:none;
+        margin: 0 auto;
+        max-width: 1200px;
+        text-align: center;
+        padding: 0;
+    }
+    
+    /* Card */
+
+    ul.card-group li{
+        box-sizing:border-box;
+        display: inline-block;
+        margin: 20px;
+        max-width: 315px;
+        width: 90%;
+        
+        border-radius: 3px;
+        box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.02);
+        border:1px solid #e9e9e9;
+        background-color: #f9f9f9;
+        
+        font-size: 0.8125rem;
+        text-align: left;
+        
+        
+    }
+
+    @media screen and (max-width: 199px){
+        ul.card-group li {
+            visibility: hidden;   
+        }
+    }
+    @media screen and (min-width: 199px){
+        .tiny {
+            display: none;   
+            font-size: 1rem;
+        }
+    }
+    
+
+    /* Card Image Link */
+
+    ul.card-group li > a{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* Card Image */
+
+    ul.card-group li > a img{
+        width: 100%;
+    }
+    @media screen and (max-width: 292px){
+        ul.card-group li > a {
+            height: 0;
+        }
+        ul.card-group li > a img{
+            visibility: hidden;
+            height: 155px;
+        }
+    }
+
+    /* Card Interior Spacing */
+
+    ul.card-group li div{
+        padding: 12px 20px;
+    }
+
+    /* Article Title */
+
+    ul.card-group li h2{
+        font-size: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 2px 0;
+    }
+
+    /* Card Title Link */
+
+    ul.card-group li h2 a{
+        color: #2b2b2b;
+        text-decoration: none;
+    }
+
+    /* Card Text */
+
+    ul.card-group li div p{
+        line-height: 21px;
+        color: #5d5d5d;
+        margin: 13px 0 17px;
+    }
+    @media screen and (max-width: 292px) {
+        ul.card-group li div p {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        }
+    }
+
+    /* CTA Buttons Group/Justifications */
+    div.cta{
+        margin: -8px -20px;
+    }
+
+    .cta-center{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cta-spread{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cta-right{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* CTA Buttons Link*/
+
+    ul li div.cta a{
+        display: inline-block;
+        cursor: pointer;
+        padding: 4px 8px;
+        border-radius: 2px;
+        background-color: #f2f2f2;
+        font-size: 0.75rem;
+        color: #1a2513;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 10px 3px 1px 0 rgba(0, 0, 0, 0.08);
+    }
+    
