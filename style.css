@@ -91,7 +91,7 @@ body{
     /* Card Interior Spacing */
 
     ul.card-group li div{
-        padding: 12px 20px;
+        padding: 20px 20px;
     }
 
     /* Article Title */
@@ -116,7 +116,7 @@ body{
     ul.card-group li div p{
         line-height: 21px;
         color: #5d5d5d;
-        margin: 13px 0 17px;
+        margin: 17px 0 15px;
     }
     @media screen and (max-width: 292px) {
         ul.card-group li div p {
@@ -128,7 +128,7 @@ body{
 
     /* CTA Buttons Group/Justifications */
     div.cta{
-        margin: -8px -20px;
+        margin: -10px -20px -20px;
     }
 
     .cta-center{
